@@ -2,12 +2,8 @@
 
 import { usePathname } from "next/navigation";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { Github01Icon } from "@hugeicons/core-free-icons";
 import { SidebarTrigger } from "../ui/sidebar";
 import { ThemeToggle } from "../theme-toggle";
-import Link from "next/link";
-import { cn } from "@/lib/utils";
-import { buttonVariants } from "../ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { resolveRoute } from "@/config/routes";
 import { currentUser } from "@/config/user";
@@ -28,17 +24,6 @@ export function DashboardHeader() {
       </div>
       <div className="flex items-center gap-2 sm:gap-3">
         <ThemeToggle />
-        <Link
-          href="https://github.com/ln-dev7/square-ui/tree/master/templates-baseui/dashboard-5"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={cn(
-            buttonVariants({ variant: "ghost", size: "icon" }),
-            "size-8",
-          )}
-        >
-          <HugeiconsIcon icon={Github01Icon} className="size-5" />
-        </Link>
         <UserMenu side="bottom" align="end">
           <Avatar size="sm">
             <AvatarImage

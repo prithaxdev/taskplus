@@ -1,6 +1,6 @@
 # Taskplus
 
-A developer-focused project management dashboard for tracking tasks, sprints, repository activity, and team analytics — all in one workspace.
+A developer-focused project management dashboard for tracking tasks, sprints, repository activity, and team analytics - all in one workspace.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)
@@ -9,20 +9,20 @@ A developer-focused project management dashboard for tracking tasks, sprints, re
 
 ## Overview
 
-Taskplus is a full-featured developer dashboard built with Next.js 16 and React 19. It provides a unified interface for managing side projects — from sprint boards and task lists to repository tracking and performance analytics.
+Taskplus is a full-featured developer dashboard built with Next.js 16 and React 19. It provides a unified interface for managing side projects - from sprint boards and task lists to repository tracking and performance analytics.
 
 ## Features
 
-- **Dashboard** — Stats overview, performance chart, today's tasks, and active projects at a glance
-- **Projects** — Track all projects with status, progress, due dates, and owner assignment
-- **Tasks** — Manage tasks across My Tasks, Today, Backlog, and Completed views
-- **Board** — Kanban-style sprint board with milestone tracking
-- **Repository** — Browse code, pull requests, issues, and commit history
-- **Analytics** — Performance metrics and detailed reports
-- **Inbox / Calendar / AI Assistant** — Utility views for communications and scheduling
-- **User Menu** — Avatar dropdown with appearance switcher (Light / Dark / System) and account actions
-- **Collapsible Sidebar** — Icon-only collapse mode with tooltip navigation
-- **Dark Mode** — Default dark theme with full light mode support via `next-themes`
+- **Dashboard** - Stats overview, performance chart, today's tasks, and active projects at a glance
+- **Projects** - Track all projects with status, progress, due dates, and owner assignment
+- **Tasks** - Manage tasks across My Tasks, Today, Backlog, and Completed views
+- **Board** - Kanban-style sprint board with milestone tracking
+- **Repository** - Browse code, pull requests, issues, and commit history
+- **Analytics** - Performance metrics and detailed reports
+- **Inbox / Calendar / AI Assistant** - Utility views for communications and scheduling
+- **User Menu** - Avatar dropdown with appearance switcher (Light / Dark / System) and account actions
+- **Collapsible Sidebar** - Icon-only collapse mode with tooltip navigation
+- **Dark Mode** - Default dark theme with full light mode support via `next-themes`
 
 ## Tech Stack
 
@@ -127,7 +127,3 @@ pnpm start
 | `/notifications` | Notifications |
 | `/settings` | Settings |
 | `/help` | Help & Docs |
-
-## License
-
-MIT
